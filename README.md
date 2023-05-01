@@ -1,4 +1,4 @@
-## *BiPointNet: Binary Neural Network for Point Clouds*
+## *BiBench: Benchmarking and Analyzing Network Binarization* [ICML 2023]
 
 Created by [Haotong Qin](https://htqin.github.io/)\*, [Mingyuan Zhang](https://scholar.google.com/citations?user=2QLD4fAAAAAJ&hl=en)\*, [Yifu Ding](https://yifu-ding.github.io/), Aoyu Li, [Fisher Yu](https://www.yf.io/), and [Xianglong Liu](https://xlliu-beihang.github.io/) from Beihang University, Nanyang Technological University, and ETH Zurich.
 
