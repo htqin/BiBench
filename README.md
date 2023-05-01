@@ -2,7 +2,7 @@
 
 Created by [Haotong Qin](https://htqin.github.io/)\*, [Mingyuan Zhang](https://scholar.google.com/citations?user=2QLD4fAAAAAJ&hl=en)\*, [Yifu Ding](https://yifu-ding.github.io/), Aoyu Li, [Fisher Yu](https://www.yf.io/), and [Xianglong Liu](https://xlliu-beihang.github.io/) from Beihang University, Nanyang Technological University, and ETH Zurich.
 
-![prediction example](https://htqin.github.io/Imgs/ICLR/overview_v1.png)
+![prediction example](https://htqin.github.io/Imgs/BiBench/overview.png)
 
 ### Introduction
 
