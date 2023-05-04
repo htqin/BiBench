@@ -1,0 +1,1 @@
+from mmcls.datasets.builder import *

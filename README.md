@@ -6,7 +6,17 @@ Created by [Haotong Qin](https://htqin.github.io/)\*, [Mingyuan Zhang](https://s
 
 ### Introduction
 
-This project is the official implementation of our accepted ICML 2023 paper ***BiBench: Benchmarking and Analyzing Network Binarization*** [[PDF](https://arxiv.org/pdf/2301.11233.pdf)]. Network binarization emerges as one of the most promising compression approaches offering extraordinary computation and memory savings by minimizing the bit-width. However, recent research has shown that applying existing binarization algorithms to diverse tasks, architectures, and hardware in realistic scenarios is still not straightforward. Common challenges of binarization, such as accuracy degradation and efficiency limitation, suggest that its attributes are not fully understood. To close this gap, we present ***BiBench***, a rigorously designed benchmark with in-depth analysis for network binarization. We first carefully scrutinize the requirements of binarization in the actual production and define evaluation tracks and metrics for a comprehensive and fair investigation. Then, we evaluate and analyze a series of milestone binarization algorithms that function at the operator level and with extensive influence. Our benchmark reveals that 1) the binarized operator has a crucial impact on the performance and deployability of binarized networks; 2) the accuracy of binarization varies significantly across different learning tasks and neural architectures; 3) binarization has demonstrated promising efficiency potential on edge devices despite the limited hardware support. The results and analysis also lead to a promising paradigm for accurate and efficient binarization. We believe that BiBench will contribute to the broader adoption of binarization and serve as a foundation for future research.
+This project is the official implementation of our accepted ICML 2023 paper ***BiBench: Benchmarking and Analyzing Network Binarization*** [[PDF](https://arxiv.org/pdf/2301.11233.pdf)] [[Doc](https://htqin.github.io/Projects/BiBench/)]. Network binarization emerges as one of the most promising compression approaches offering extraordinary computation and memory savings by minimizing the bit-width. However, recent research has shown that applying existing binarization algorithms to diverse tasks, architectures, and hardware in realistic scenarios is still not straightforward. Common challenges of binarization, such as accuracy degradation and efficiency limitation, suggest that its attributes are not fully understood. To close this gap, we present ***BiBench***, a rigorously designed benchmark with in-depth analysis for network binarization. We first carefully scrutinize the requirements of binarization in the actual production and define evaluation tracks and metrics for a comprehensive and fair investigation. Then, we evaluate and analyze a series of milestone binarization algorithms that function at the operator level and with extensive influence. Our benchmark reveals that 1) the binarized operator has a crucial impact on the performance and deployability of binarized networks; 2) the accuracy of binarization varies significantly across different learning tasks and neural architectures; 3) binarization has demonstrated promising efficiency potential on edge devices despite the limited hardware support. The results and analysis also lead to a promising paradigm for accurate and efficient binarization. We believe that BiBench will contribute to the broader adoption of binarization and serve as a foundation for future research.
+
+### Implementation
+
+**BiBench**: the main code repo of our bibench, researchers can easily implement and test binarization algorithms in various evaluation tracks.
+
+**Libraries**: the implementation of several basic (full-precision) learning tasks, support the comprehensive evaluation on learning tasks and neural architectures.
+
+### Full Doc
+
+The detailed introduction and tutorial of out benchmark, you can directly browse the content from the [index page](https://htqin.github.io/Projects/BiBench/).
 
 ### Citation
 
@@ -22,5 +32,3 @@ If you find our work useful in your research, please consider citing:
   year      = {2023}
 }
 ```
-
-***The full code is coming soon...***
